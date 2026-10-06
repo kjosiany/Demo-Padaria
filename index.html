@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Doce Café — café, bolos, pães e quitandas para o seu dia.">
+  <title>Doce Café | Café & Padaria</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topo" id="inicio">
+    <a class="logo" href="#inicio" aria-label="Doce Café - início">
+      <span class="logo-icon">DC</span>
+      <span class="logo-text">
+        <strong>Doce Café</strong>
+        <small>CAFÉ & PADARIA</small>
+      </span>
+    </a>
+
+    <button class="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="menu">
+      <a href="#sobre">Sobre</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#galeria">Fotos</a>
+      <a href="#visite">Onde estamos</a>
+      <a class="menu-whatsapp" href="https://wa.me/553499152341" target="_blank" rel="noopener">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <span class="mini-title">CAFÉ FRESCO • BOLOS • PÃES</span>
+        <h1>Seu café do dia, do jeitinho que você gosta.</h1>
+        <p>
+          Bolo caseiro, pão de queijo quentinho, pão saindo do forno e café passado na hora.
+          Um cantinho simples para tomar um café com calma.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn btn-dark" href="#cardapio">Ver o cardápio</a>
+          <a class="btn btn-outline" href="https://wa.me/553499152341" target="_blank" rel="noopener">Falar com a gente</a>
+        </div>
+
+        <div class="hero-info">
+          <span>Aberto de terça a domingo</span>
+          <span>08h às 19h</span>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="img/bolo-caseiro.jpg" alt="Bolo caseiro dourado servido em fatias">
+      </div>
+    </section>
+
+    <section class="sobre section" id="sobre">
+      <div class="section-label">SOBRE A CASA</div>
+      <div class="sobre-grid">
+        <h2>Tem coisa melhor que cheiro de bolo no forno?</h2>
+        <div>
+          <p class="destaque">
+            A Doce Café nasceu com uma ideia simples: oferecer aquele café gostoso de padaria,
+            com receitas que lembram casa e produtos preparados para o dia a dia.
+          </p>
+          <p>
+            Aqui você pode passar rapidinho para pegar um pão de queijo ou sentar um pouco,
+            pedir um café e escolher alguma coisa da vitrine.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cardapio section" id="cardapio">
+      <div class="section-heading">
+        <div>
+          <div class="section-label">DA VITRINE</div>
+          <h2>Alguns dos nossos favoritos</h2>
+        </div>
+        <p>Uma seleção demonstrativa para mostrar um pouco do que você encontra por aqui.</p>
+      </div>
+
+      <div class="produtos">
+        <article class="produto produto-destaque">
+          <div class="produto-img">
+            <img src="img/cafe-croissant.jpg" alt="Café cremoso servido com croissants">
+          </div>
+          <div class="produto-info">
+            <span>CAFÉ</span>
+            <h3>Café cremoso</h3>
+            <p>Para começar bem o dia ou acompanhar uma boa conversa.</p>
+          </div>
+        </article>
+
+        <article class="produto">
+          <div class="produto-img">
+            <img src="img/bolo-caseiro.jpg" alt="Bolo caseiro dourado">
+          </div>
+          <div class="produto-info">
+            <span>BOLOS</span>
+            <h3>Bolo caseiro</h3>
+            <p>Fatia macia e sabor de receita feita em casa.</p>
+          </div>
+        </article>
+
+        <article class="produto">
+          <div class="produto-img">
+            <img src="img/pao-de-queijo.jpg" alt="Pães de queijo dourados">
+          </div>
+          <div class="produto-info">
+            <span>QUITANDAS</span>
+            <h3>Pão de queijo</h3>
+            <p>Quentinho, dourado e perfeito com café.</p>
+          </div>
+        </article>
+
+        <article class="produto">
+          <div class="produto-img">
+            <img src="img/donuts.jpg" alt="Donuts com cobertura de chocolate">
+          </div>
+          <div class="produto-info">
+            <span>DOCES</span>
+            <h3>Donuts de chocolate</h3>
+            <p>Para quem não dispensa uma coisinha doce.</p>
+          </div>
+        </article>
+
+        <article class="produto">
+          <div class="produto-img">
+            <img src="img/sucos.jpg" alt="Sucos e bebidas naturais de frutas">
+          </div>
+          <div class="produto-info">
+            <span>BEBIDAS</span>
+            <h3>Sucos naturais</h3>
+            <p>Uma opção leve e refrescante para qualquer hora.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="historia section">
+      <div class="historia-img">
+        <img src="img/fornada.jpg" alt="Pães recém-assados em uma bancada">
+      </div>
+      <div class="historia-text">
+        <div class="section-label">TODO DIA TEM FORNADA</div>
+        <h2>O melhor momento é quando sai quentinho.</h2>
+        <p>
+          Aquele cheiro de pão assando que faz a gente querer levar um de cada.
+          A proposta da Doce Café é justamente essa: comida simples, fresquinha e feita para dar vontade.
+        </p>
+        <a class="link" href="#visite">Venha conhecer →</a>
+      </div>
+    </section>
+
+    <section class="galeria section" id="galeria">
+      <div class="section-heading">
+        <div>
+          <div class="section-label">UM POUCO DA CASA</div>
+          <h2>Olha só o que sai daqui</h2>
+        </div>
+      </div>
+
+      <div class="galeria-grid">
+        <figure class="foto grande"><img src="img/bolos-fatia.jpg" alt="Bolos decorados em uma vitrine"></figure>
+        <figure class="foto"><img src="img/croissant.jpg" alt="Croissant artesanal em uma cesta"></figure>
+        <figure class="foto"><img src="img/padaria.jpg" alt="Pães artesanais em prateleiras"></figure>
+        <figure class="foto larga"><img src="img/fornada.jpg" alt="Pães recém-assados"></figure>
+        <figure class="foto"><img src="img/donuts.jpg" alt="Donuts de chocolate"></figure>
+        <figure class="foto"><img src="img/pao-de-queijo.jpg" alt="Pães de queijo assados"></figure>
+      </div>
+    </section>
+
+    <section class="visite section" id="visite">
+      <div class="visite-box">
+        <div class="visite-principal">
+          <div class="section-label">VEM TOMAR UM CAFÉ</div>
+          <h2>Quando passar por perto, entra pra conhecer.</h2>
+          <p>Os dados abaixo são ilustrativos e podem ser trocados pelos dados reais do cliente.</p>
+          <a class="btn btn-light" href="https://wa.me/553499152341" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+        </div>
+
+        <div class="detalhes">
+          <div>
+            <span>ENDEREÇO</span>
+            <strong>Rua da Vila, 120<br>Uberlândia · MG</strong>
+          </div>
+          <div>
+            <span>HORÁRIO</span>
+            <strong>Terça a domingo<br>08h às 19h</strong>
+          </div>
+          <div>
+            <span>WHATSAPP</span>
+            <strong>(34) 99152-341</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="logo">
+      <span class="logo-icon">DC</span>
+      <span class="logo-text">
+        <strong>Doce Café</strong>
+        <small>CAFÉ & PADARIA</small>
+      </span>
+    </div>
+    <p>Projeto demonstrativo. Fotos e informações são ilustrativas.</p>
+    <small>© 2026 Doce Café</small>
+  </footer>
+
+  <a class="whatsapp-fixo" href="https://wa.me/553499152341" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp">WhatsApp</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
